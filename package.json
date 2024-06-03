@@ -1,0 +1,12 @@
+{
+  "name": "robotizando-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "appium": "adb kill-server && adb start-server && appium --port 4723 --base-path /wd/hub"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
